@@ -1,0 +1,26 @@
+.application-status {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .status-bar {
+    display: flex;
+    justify-content: space-between;
+    gap:16px;
+    align-items: center;
+  }
+  
+  .status-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .status-time {
+    font-size: 1rem;
+    color: #555;
+  }
